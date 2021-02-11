@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// import { NgxUiLoaderDemoService } from './providers/ngx-ui-loader-demo.service';
 
 @Component({
   selector: 'app-root',

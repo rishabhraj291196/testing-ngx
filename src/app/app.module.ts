@@ -4,18 +4,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
-import { MatToolbarModule, MatButtonModule, MatIconModule, MatInputModule,
-         MatSelectModule, MatSlideToggleModule, MatSliderModule,
-         MatCheckboxModule, MatListModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ColorPickerModule } from 'ngx-color-picker';
 
-import { NgxUiLoaderModule, NgxUiLoaderConfig, SPINNER, POSITION,
-  PB_DIRECTION, NgxUiLoaderRouterModule, NgxUiLoaderHttpModule } from 'ngx-ui-loader';
+import { NgxUiLoaderModule, NgxUiLoaderConfig,NgxUiLoaderRouterModule, NgxUiLoaderHttpModule } from 'ngx-ui-loader';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-
 
 import { NgxUiLoaderDemoComponent } from './ngxUiLoaderDemo/ngx-ui-loader-demo.component';
 
@@ -57,15 +53,7 @@ const routes: Routes = [
     ColorPickerModule,
     FlexLayoutModule,
     FormsModule,
-    MatToolbarModule,
     MatButtonModule,
-    MatIconModule,
-    MatInputModule,
-    MatSelectModule,
-    MatSlideToggleModule,
-    MatSliderModule,
-    MatCheckboxModule,
-    MatListModule,
     RouterModule.forRoot(routes),
     HttpClientModule,
     NgxUiLoaderModule,
